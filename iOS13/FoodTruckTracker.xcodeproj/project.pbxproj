@@ -12,6 +12,10 @@
 		4C03EDD124165D1A00365D56 /* MapKitFoodTrucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03EDD024165D1A00365D56 /* MapKitFoodTrucks.swift */; };
 		4C03EDD52416792300365D56 /* FoodTruckDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03EDD42416792300365D56 /* FoodTruckDetailViewController.swift */; };
 		4C03EDD724167D5100365D56 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03EDD624167D5100365D56 /* LocationController.swift */; };
+		4C1641B52421B0AE00145D67 /* UIViewController+UserInfoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1641B42421B0AE00145D67 /* UIViewController+UserInfoAlert.swift */; };
+		4C1641B72421B54600145D67 /* ShiftableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1641B62421B54600145D67 /* ShiftableViewController.swift */; };
+		4C1641B92421C7AF00145D67 /* FoodTruckMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1641B82421C7AF00145D67 /* FoodTruckMapView.swift */; };
+		4C33A565241F445C00BCBBFA /* TruckRep+MKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33A564241F445C00BCBBFA /* TruckRep+MKAnnotation.swift */; };
 		4C4F3957241478970003163B /* MyTrucksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F3956241478970003163B /* MyTrucksTableViewCell.swift */; };
 		4C4F3959241478A90003163B /* TruckMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F3958241478A90003163B /* TruckMenuTableViewCell.swift */; };
 		4C4F395B241480E50003163B /* TruckMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F395A241480E50003163B /* TruckMenuTableViewController.swift */; };
@@ -46,6 +50,7 @@
 		4CF2ECB82413524600876A03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2ECB72413524500876A03 /* GoogleService-Info.plist */; };
 		4CF2ECB92413524600876A03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2ECB72413524500876A03 /* GoogleService-Info.plist */; };
 		4CF2ECBA2413524600876A03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2ECB72413524500876A03 /* GoogleService-Info.plist */; };
+		4CF48D7324276E2400740103 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF48D7224276E2400740103 /* Notifications.swift */; };
 		6A4394C334567D05424CB0FE /* Pods_FoodTruckTracker_FoodTruckTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0578B1E5739625DA8C1FEF3E /* Pods_FoodTruckTracker_FoodTruckTrackerUITests.framework */; };
 		6E7B7B90B16D1E0C3443D542 /* Pods_FoodTruckTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95778065A60FBA8706564035 /* Pods_FoodTruckTrackerTests.framework */; };
 		E626FEC334094DB11973B83A /* Pods_FoodTruckTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4141D9AA499FE7C5DFC8B8E /* Pods_FoodTruckTracker.framework */; };
@@ -78,6 +83,10 @@
 		4C03EDD024165D1A00365D56 /* MapKitFoodTrucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitFoodTrucks.swift; sourceTree = "<group>"; };
 		4C03EDD42416792300365D56 /* FoodTruckDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckDetailViewController.swift; sourceTree = "<group>"; };
 		4C03EDD624167D5100365D56 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		4C1641B42421B0AE00145D67 /* UIViewController+UserInfoAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+UserInfoAlert.swift"; sourceTree = "<group>"; };
+		4C1641B62421B54600145D67 /* ShiftableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftableViewController.swift; sourceTree = "<group>"; };
+		4C1641B82421C7AF00145D67 /* FoodTruckMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckMapView.swift; sourceTree = "<group>"; };
+		4C33A564241F445C00BCBBFA /* TruckRep+MKAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TruckRep+MKAnnotation.swift"; sourceTree = "<group>"; };
 		4C4F3956241478970003163B /* MyTrucksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTrucksTableViewCell.swift; sourceTree = "<group>"; };
 		4C4F3958241478A90003163B /* TruckMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckMenuTableViewCell.swift; sourceTree = "<group>"; };
 		4C4F395A241480E50003163B /* TruckMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckMenuTableViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +126,7 @@
 		4CF2ECA92413516100876A03 /* FoodTruckTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckTrackerUITests.swift; sourceTree = "<group>"; };
 		4CF2ECAB2413516100876A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CF2ECB72413524500876A03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4CF48D7224276E2400740103 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		95778065A60FBA8706564035 /* Pods_FoodTruckTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTruckTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6AC781ACBB28EBDDA7A8A1 /* Pods-FoodTruckTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTruckTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-FoodTruckTrackerTests/Pods-FoodTruckTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D3AA409844503C5E9EB8A56 /* Pods-FoodTruckTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTruckTracker.release.xcconfig"; path = "Target Support Files/Pods-FoodTruckTracker/Pods-FoodTruckTracker.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +167,7 @@
 			children = (
 				4C4F3956241478970003163B /* MyTrucksTableViewCell.swift */,
 				4C4F3958241478A90003163B /* TruckMenuTableViewCell.swift */,
+				4C1641B82421C7AF00145D67 /* FoodTruckMapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +177,9 @@
 			children = (
 				4C6B76822413D4D900BB8476 /* Truck+Convenience.swift */,
 				4C6B76842413D98E00BB8476 /* MenuItem+Convenience.swift */,
+				4C33A564241F445C00BCBBFA /* TruckRep+MKAnnotation.swift */,
+				4C1641B42421B0AE00145D67 /* UIViewController+UserInfoAlert.swift */,
+				4C1641B62421B54600145D67 /* ShiftableViewController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -175,6 +189,7 @@
 			children = (
 				4C96DC70241508EA003DF968 /* Constants.swift */,
 				4C03EDCE24164E8700365D56 /* Protocol.swift */,
+				4CF48D7224276E2400740103 /* Notifications.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -577,6 +592,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1641B72421B54600145D67 /* ShiftableViewController.swift in Sources */,
 				4C6B76802413D35A00BB8476 /* MenuItemRepresentation.swift in Sources */,
 				4C6B76772413CE2500BB8476 /* MyFoodTrucksTableViewController.swift in Sources */,
 				4CEA10822413582C0072D28F /* Bearer.swift in Sources */,
@@ -587,20 +603,24 @@
 				4C96DC7324150F06003DF968 /* WelcomeViewController.swift in Sources */,
 				4C4F395B241480E50003163B /* TruckMenuTableViewController.swift in Sources */,
 				4C6B768824140A6100BB8476 /* AddFoodTruckViewController.swift in Sources */,
+				4C1641B92421C7AF00145D67 /* FoodTruckMapView.swift in Sources */,
 				4C6B76752413B91F00BB8476 /* SignUpViewController.swift in Sources */,
 				4CF2EC882413515F00876A03 /* AppDelegate.swift in Sources */,
 				4C6B767C2413CFC200BB8476 /* CoreDataStack.swift in Sources */,
 				4C6B76732413991A00BB8476 /* SignInViewController.swift in Sources */,
+				4C1641B52421B0AE00145D67 /* UIViewController+UserInfoAlert.swift in Sources */,
 				4C4F3957241478970003163B /* MyTrucksTableViewCell.swift in Sources */,
 				4CF2EC8A2413515F00876A03 /* SceneDelegate.swift in Sources */,
 				4C4F395D241481010003163B /* AddMenuItemViewController.swift in Sources */,
 				4C96DC71241508EA003DF968 /* Constants.swift in Sources */,
 				4C03EDCD24164D1300365D56 /* FoodTrucksAroundMeViewController.swift in Sources */,
 				4C03EDD124165D1A00365D56 /* MapKitFoodTrucks.swift in Sources */,
+				4C33A565241F445C00BCBBFA /* TruckRep+MKAnnotation.swift in Sources */,
 				4CEA107C241357720072D28F /* FoodTruckController.swift in Sources */,
 				4C4F3959241478A90003163B /* TruckMenuTableViewCell.swift in Sources */,
 				4C03EDD724167D5100365D56 /* LocationController.swift in Sources */,
 				4CEA10842413631A0072D28F /* Foodie.swift in Sources */,
+				4CF48D7324276E2400740103 /* Notifications.swift in Sources */,
 				4C03EDD52416792300365D56 /* FoodTruckDetailViewController.swift in Sources */,
 				4C6B76852413D98E00BB8476 /* MenuItem+Convenience.swift in Sources */,
 			);
