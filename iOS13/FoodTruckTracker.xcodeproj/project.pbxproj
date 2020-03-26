@@ -21,6 +21,7 @@
 		4C6823D5242C6DCC004D5E0A /* ConcurrentOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6823D4242C6DCC004D5E0A /* ConcurrentOperations.swift */; };
 		4C6823D9242C710E004D5E0A /* MenuItemPhotoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6823D8242C710E004D5E0A /* MenuItemPhotoOperation.swift */; };
 		4C6823DB242C7121004D5E0A /* TruckPhotoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6823DA242C7121004D5E0A /* TruckPhotoOperation.swift */; };
+		4C6823E0242C80BF004D5E0A /* StarRatingiControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6823DF242C80BF004D5E0A /* StarRatingiControl.swift */; };
 		4C6B766D241389F300BB8476 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C6B766C241389F300BB8476 /* Montserrat-Black.ttf */; };
 		4C6B766F24138A2400BB8476 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C6B766E24138A2400BB8476 /* Montserrat-Thin.ttf */; };
 		4C6B767124138A7500BB8476 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C6B767024138A7500BB8476 /* Montserrat-Light.ttf */; };
@@ -93,6 +94,7 @@
 		4C6823D4242C6DCC004D5E0A /* ConcurrentOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentOperations.swift; sourceTree = "<group>"; };
 		4C6823D8242C710E004D5E0A /* MenuItemPhotoOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemPhotoOperation.swift; sourceTree = "<group>"; };
 		4C6823DA242C7121004D5E0A /* TruckPhotoOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckPhotoOperation.swift; sourceTree = "<group>"; };
+		4C6823DF242C80BF004D5E0A /* StarRatingiControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingiControl.swift; sourceTree = "<group>"; };
 		4C6B766C241389F300BB8476 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
 		4C6B766E24138A2400BB8476 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
 		4C6B767024138A7500BB8476 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				4C4F3956241478970003163B /* MyTrucksTableViewCell.swift */,
 				4C4F3958241478A90003163B /* TruckMenuTableViewCell.swift */,
 				4C1641B82421C7AF00145D67 /* FoodTruckMapView.swift */,
+				4C6823DF242C80BF004D5E0A /* StarRatingiControl.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -615,6 +618,7 @@
 				4C6B76802413D35A00BB8476 /* MenuItemRepresentation.swift in Sources */,
 				4C6B76772413CE2500BB8476 /* MyFoodTrucksTableViewController.swift in Sources */,
 				4C6B767A2413CF8500BB8476 /* FoodTruck.xcdatamodeld in Sources */,
+				4C6823E0242C80BF004D5E0A /* StarRatingiControl.swift in Sources */,
 				4C6B76832413D4D900BB8476 /* Truck+Convenience.swift in Sources */,
 				4C6B767E2413D32600BB8476 /* TruckRepresentation.swift in Sources */,
 				4C96DC7324150F06003DF968 /* WelcomeViewController.swift in Sources */,
